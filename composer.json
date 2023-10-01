@@ -1,0 +1,15 @@
+{
+    "name": "toruse/bsg",
+    "description": "BSG API Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Torus",
+            "email": "typikp@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
