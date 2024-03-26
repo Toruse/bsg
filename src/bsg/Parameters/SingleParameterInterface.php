@@ -4,9 +4,9 @@ namespace Toruse\bsg\Parameters;
 
 interface SingleParameterInterface
 {
-    public function getName();
+    public function getName(): string;
 
-    public function setValue($value);
+    public function setValue(mixed $value);
 
-    public function getValue();
+    public function getValue(): mixed;
 }

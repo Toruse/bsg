@@ -8,19 +8,19 @@ abstract class SingleParameter implements SingleParameterInterface
 
     protected $value;
 
-    public function getName()
+    public function getName(): string
     {
         return $this->name;
     }
 
-    public function setValue($value)
+    public function setValue(mixed $value): SingleParameter
     {
         $this->value = $value;
 
         return $this;
     }
 
-    public function getValue()
+    public function getValue(): mixed
     {
         return $this->value;
     }
